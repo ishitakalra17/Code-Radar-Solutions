@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
 {
-x=scanf()
-printf(x)
+x=scanf();
+printf(x);
 }
