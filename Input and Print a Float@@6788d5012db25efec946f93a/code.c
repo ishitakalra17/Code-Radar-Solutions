@@ -3,4 +3,5 @@ int main()
 {
 x=scanf();
 printf(x);
+return 0;
 }
