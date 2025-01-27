@@ -2,6 +2,6 @@
 int main()
 {
 x=scanf();
-printf(x);
+printf(%d,x);
 return 0;
 }
