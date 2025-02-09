@@ -6,6 +6,6 @@ float b;
 scanf("%f",&b);
 float res;
 res=a*b;
-printf("Product: %f"res)
+printf("Product: %f"res);
 }
 
