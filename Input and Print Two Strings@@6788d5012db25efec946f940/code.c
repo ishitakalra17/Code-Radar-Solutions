@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    char a[100];
     scanf("%d",&a);
-    int b;
+    char b[100];
     scanf("%d",&b);
     printf("%d and %d",a,b);
     return 0;
