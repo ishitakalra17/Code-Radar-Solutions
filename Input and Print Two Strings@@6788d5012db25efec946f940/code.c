@@ -2,9 +2,9 @@
 int main()
 {
     char a[100];
-    scanf("%d",&a);
+    scanf("%s",&a);
     char b[100];
-    scanf("%d",&b);
-    printf("%d and %d",a,b);
+    scanf("%s",&b);
+    printf("%s and %s",a,b);
     return 0;
 }
