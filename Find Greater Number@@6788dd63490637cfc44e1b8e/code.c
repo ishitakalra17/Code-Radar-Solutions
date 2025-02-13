@@ -5,5 +5,5 @@ scanf("%d",&a);
 int b;
 scanf("%d",&b);
 if(a>b){printf("%d",a);}
-else{printf("%d",b)}
+else{printf("%d",b);}
 return 0;}
