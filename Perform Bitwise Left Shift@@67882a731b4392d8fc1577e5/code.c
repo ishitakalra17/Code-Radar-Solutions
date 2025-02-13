@@ -2,10 +2,10 @@
 int main()
 {
     int a;
-    scanf("%d";&a);
+    scanf("%d",&a);
     int b;
     scanf("%d",&b);
     int res= a<<b;
     printf("%d",res);
-    retun 0;
+    return 0;
 }
