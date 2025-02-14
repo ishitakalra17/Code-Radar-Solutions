@@ -7,6 +7,6 @@ int main()
     {printf("Vowel");}
     else if(a>'0' && a<'9')
     {printf("Consonant");}
-    else{printf("special character")}
+    else{printf("special character");}
     return 0;
     }
