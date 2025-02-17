@@ -12,7 +12,7 @@ printf("%d",result);}
 else if(c=='+')
 {result=a+b;
 printf("%d",result);}
-else if(c=='-')
+else if(c=='-' && b!=0)
 {result=a-b;
 printf("%d",result);}
 return 0;
