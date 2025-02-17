@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int i, j;
+    int m,n;
     scanf("%d", &i);  
-    for (; i > 0; i--) {
-        for (j = 0; j < i; j++) {
-            printf("* ");
-        }
-        printf("\n"); 
-    }
-
+    for (;j<=n;j++)
+    {for(;j<=m;j++)
+    {printf("*");}}
       return 0;
 }
