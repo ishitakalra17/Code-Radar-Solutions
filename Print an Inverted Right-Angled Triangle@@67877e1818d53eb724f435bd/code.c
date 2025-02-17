@@ -2,16 +2,13 @@
 
 int main() {
     int i, j;
-    scanf("%d", &i);  // Read an integer from the user
-
-    // Outer loop controls the rows
-    for (; i > 0; i--) {  
-        // Inner loop prints '*' i times
+    scanf("%d", &i);  
+    for (; i > 0; i--) {
         for (j = 0; j < i; j++) {
             printf("*");
         }
-        printf("\n");  // Move to the next line
+        printf("\n"); 
     }
 
-    return 0;
+      return 0;
 }
