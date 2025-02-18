@@ -4,6 +4,6 @@ int main()
 scanf("%d",&n);
 // for(j)
 for(i=0;i<n;i++)
-{printf("*");}
+{printf("*\n");}
 return 0;
 }
