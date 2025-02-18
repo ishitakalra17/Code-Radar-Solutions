@@ -6,7 +6,7 @@ int main()
     for(i=0;i<a;i++)
     {for(j=0;j<a;j++)
     { if(i==1 || j==1 || i==n || j==n)
-    }{printf("* ")};}
+    }{printf("* ");}}
     {printf("\n");}
    
     return 0;
