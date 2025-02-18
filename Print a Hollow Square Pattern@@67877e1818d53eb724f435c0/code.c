@@ -7,8 +7,9 @@ int main()
     {for(j=0;j<a;j++)
      if(i==1 || j==1 || i==a-1 || j==a-1)
     {printf("* ");}
-    else{printf(" ");}}
-    {printf("\n");}
+    else{printf(" ");}
+    {printf("\n");}}
+    
    
     return 0;
 }
