@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
-{int n,i;
-scanf("%d",&n);
-// for ()
-for(i=0;n<i;n++)
+{int n,,j,i;
+// scanf("%d",&n);
+// for(j)
+for(i=0;i<n;i++)
 {printf("*");}
 return 0;
 }
