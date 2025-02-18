@@ -6,5 +6,5 @@ for(i=2;i<a;i++)
 break;
 {if(a%i==0)
 {printf("Not Prime");}
-else{printf("Prime");}}
+else if(a%i!=0){printf("Prime");}}
 return 0;}
