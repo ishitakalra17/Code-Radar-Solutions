@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main()
-{int a;
+{int i,a;
 scanf("%d",&a);
-if(a%a==0 && a%1==0)
-{printf("Prime");}
-else{printf("Not Prime");}
+for(i=0;i<a;i++)
+{printf("%d",i)}
 return 0;}
