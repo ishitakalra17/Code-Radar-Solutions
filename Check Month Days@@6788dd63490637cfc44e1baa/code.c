@@ -17,7 +17,7 @@ int main()
         case 11:printf("30");
         case 12:printf("31"); 
         default:
-        printf("Invalid Output")
+        printf("Invalid Output");
     }
     return 0;
 }
