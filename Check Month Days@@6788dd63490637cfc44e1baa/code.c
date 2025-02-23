@@ -16,7 +16,7 @@ int main()
          break;
         case 6:printf("30");
          break;
-        case 7: printf("31"):
+        case 7: printf("31");
          break;
         case 8:printf("31");
          break;
