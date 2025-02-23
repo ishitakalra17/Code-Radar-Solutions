@@ -14,6 +14,6 @@ switch(a)
     break;
     case 'E':printf("Fail");
     break;
-    default:printf("Invalid ")
+    default:printf("Invalid ");
 }
 return 0;}
