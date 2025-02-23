@@ -12,6 +12,8 @@ printf("%d",result);}
 else if(c=='+')
 {result=a+b;
 printf("%d",result);}
+else if(c=='/'&& b==0)
+{printf("error");}
 else if(c=='-' )
 {result=a-b;
 printf("%d",result);}
