@@ -12,8 +12,8 @@ switch(a)
     break;
     case 'D':printf("Below Average");
     break;
-    case 'E':printf("Fail");
+    case 'F':printf("Fail");
     break;
-    default:printf("Invalid ");
+    default:printf("Invalid grade");
 }
 return 0;}
