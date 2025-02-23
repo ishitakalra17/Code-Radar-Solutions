@@ -15,9 +15,7 @@ int main()
         case 9:printf("30");
         case 10:printf("31");
         case 11:printf("30");
-        case 12:printf("31");
-        return 0;
-
-        
+        case 12:printf("31"); 
     }
+    return 0;
 }
