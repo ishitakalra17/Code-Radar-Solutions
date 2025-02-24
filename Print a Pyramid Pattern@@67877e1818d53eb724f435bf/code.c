@@ -10,7 +10,11 @@ int main()
     }
     {
         for(k=0;k<2*a-1;k++)
-        {printf("*\n");}
+        {
+            printf("*");
+        }
+        printf("\n")
+
         
     }
     return 0;
