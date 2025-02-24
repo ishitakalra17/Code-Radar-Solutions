@@ -10,7 +10,7 @@ int main()
         {printf("*");}}
         else{
             for(j=0;j<a;j++)
-            {if(j=0 || j==a-1)
+            {if(j==0 || j==a-1)
             {printf("*");}
             else{printf(" ");}}}
     }
