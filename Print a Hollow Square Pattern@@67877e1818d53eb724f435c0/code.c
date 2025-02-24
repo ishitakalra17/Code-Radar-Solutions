@@ -3,13 +3,13 @@ int main()
 {
     int a,i,j;
     scanf("%d",&a);
-    for(i=0;i<n;i++)
+    for(i=0;i<a;i++)
     {
-        if(i==0 ||j i==n)
-        {for(j=0;j<n;j++)
+        if(i==0 || i==n)
+        {for(j=0;j<a;j++)
         {printf("*");}}
         else if(j==1 || j==n )
-        {for(j=0;j<n;j++)
+        {for(j=0;j<a;j++)
         {printf("* ");}}
         printf("\n");
     }
