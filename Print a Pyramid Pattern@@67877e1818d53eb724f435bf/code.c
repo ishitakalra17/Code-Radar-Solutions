@@ -1,19 +1,16 @@
-#include <stdio.h>
-
-int main() {
-    int n, i, j;
-    scanf("%d", &n);
-
-    for (i = 1; i <= n; i++) {  
-    
-        for (j = 1; j <= n - i; j++) {
-            printf(" ");
-        }
-        for (j = 1; j <= 2 * i - 1; j++) {
-            printf("*");
-        }
-        printf("\n");
+#include<stdio.h>
+int main()
+{
+    int a,i,j,k;
+    scanf("%d",&a);
+    for(i=0;i<a;i++)
+    {
+        for(j=a;j<a-i;j++)
+        {printf(" ");}
     }
-
-return 0;
+    {
+        for(k=0;k<2*n-1;k++)
+        {printf("* ");}
+    }
+    return 0;
 }
