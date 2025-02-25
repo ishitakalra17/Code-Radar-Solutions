@@ -7,7 +7,7 @@ for(i=1;i<=a;i++)
 {
     for(j='A';j<a;j++)
     {printf("%d",j);}
-    printf("\n")
+    printf("\n");
 }
 return 0;
 }
