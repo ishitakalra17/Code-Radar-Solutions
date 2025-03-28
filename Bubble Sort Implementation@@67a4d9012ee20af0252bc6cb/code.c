@@ -14,8 +14,7 @@ void bubbleSort(int arr[], int n) {
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-
-                swapped = 1; // Mark that a swap has occurred
+                swapped = 1;
             }
         }
 
@@ -36,12 +35,27 @@ void printArray(int arr[], int n) {
 
 // Main function
 int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int arr[6], n, i;
+
+    // Take user input for the array size (5 or 6 elements)
+    printf("Enter the number of elements (5 or 6): ");
+    scanf("%d", &n);
+
+    if (n < 5 || n > 6) {
+        printf("Please enter only 5 or 6 elements.\n");
+        return 1; // Exit program if invalid input
+    }
+
+    // Take user input for array elements
+    printf("Enter %d elements:\n", n);
+    for (i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
 
     printf("Original array: \n");
     printArray(arr, n);
 
+    // Sort the array using Bubble Sort
     bubbleSort(arr, n);
 
     printf("Sorted array: \n");
