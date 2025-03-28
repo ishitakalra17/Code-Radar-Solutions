@@ -4,7 +4,7 @@ int main() {
     int rows, num = 1;
 
     // Get the number of rows from the user
-    printf("Enter the number of rows for Floyd's Triangle: ");
+    printf();
     scanf("%d", &rows);
 
     // Generate Floyd's Triangle
