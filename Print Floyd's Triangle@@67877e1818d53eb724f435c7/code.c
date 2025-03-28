@@ -1,12 +1,20 @@
-#include<stdio.h>
-int main()
-{
-  int a,i,j,k;
-  scanf("%d",&a);
-  for(i=1;i<=a;i++)
-  {for(j=1;j<=i;j++)
-{for(k=j;k<=i+j;k++)
-{printf("%d ",k);}
-printf("\n");}}
-  return 0;
+#include <stdio.h>
+
+int main() {
+    int rows, num = 1;
+
+    // Get the number of rows from the user
+    printf("Enter the number of rows for Floyd's Triangle: ");
+    scanf("%d", &rows);
+
+    // Generate Floyd's Triangle
+    for (int i = 1; i <= rows; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("%d ", num);
+            num++;
+        }
+        printf("\n"); // Move to the next line
+    }
+
+    return 0;
 }
