@@ -1,8 +1,6 @@
 #include<stdio.h>
-int fibonacci(a)
+int fibonacci(int a)
 {
-    int a;
-    scanf("%d",&a);
     if(a==0)
     return 0;
     if(a==1)
@@ -13,6 +11,10 @@ int fibonacci(a)
 }
 int main()
 {
+    int num;
+    scanf("%d",&num);
+    int result=fibonacci(num);
+    printf("%d",result);
     finonacci();
     return 0;
 }
