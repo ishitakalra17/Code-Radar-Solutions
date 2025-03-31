@@ -11,3 +11,8 @@ int fibonacci()
         return fibonacci(a-1)+fibonacci(a-2);}
     return 0;
 }
+int main()
+{
+    finonacci();
+    return 0;
+}
