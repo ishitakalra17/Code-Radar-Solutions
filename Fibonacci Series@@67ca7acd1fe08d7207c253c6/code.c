@@ -7,7 +7,6 @@ int fibonacci(int a)
     return 1;
     else{
         return fibonacci(a-1)+fibonacci(a-2);}
-    return 0;
 }
 int main()
 {
@@ -15,6 +14,5 @@ int main()
     scanf("%d",&num);
     int result=fibonacci(num);
     printf("%d",result);
-    fibonacci();
     return 0;
 }
