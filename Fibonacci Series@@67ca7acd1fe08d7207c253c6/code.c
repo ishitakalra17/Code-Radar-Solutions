@@ -1,5 +1,5 @@
 #include<stdio.h>
-int fibonacci()
+int fibonacci(a)
 {
     int a;
     scanf("%d",&a);
