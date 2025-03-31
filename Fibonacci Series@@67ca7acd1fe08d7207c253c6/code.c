@@ -15,6 +15,6 @@ int main()
     scanf("%d",&num);
     int result=fibonacci(num);
     printf("%d",result);
-    finonacci();
+    fibonacci();
     return 0;
 }
