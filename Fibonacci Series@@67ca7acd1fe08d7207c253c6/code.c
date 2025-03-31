@@ -3,21 +3,13 @@
 int fibonacci(int n) {
     if (n == 0) return 0;
     if (n == 1) return 1;
-
-    int a = 0, b = 1, temp;
-    for (int i = 2; i <= n; i++) {
-        temp = a + b;
-        a = b;
-        b = temp;
-    }
-    return b;
+    return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-int main()
-{
+int main() {
     int num;
-    scanf("%d", &num);
-    printf("%d\n", fibonacci(num));  // Ensure newline for platform requirements
+    scanf("%d", &num);  // Only take input, no extra text
+    printf("%d\n", fibonacci(num));  // Ensure a newline
     return 0;
 }
 
